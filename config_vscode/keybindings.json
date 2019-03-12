@@ -1,0 +1,89 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    // Déplacement du curseur
+    {
+        "key": "alt+i",
+        "command": "cursorUp"
+    },
+    // {
+    //     "key": "alt+i",
+    //     "command": "showPrevParameterHint",
+    //     "when": "editorTextFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+
+    // },
+    {
+        "key": "alt+i",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+
+    },
+    {
+        "key": "alt+j",
+        "command": "cursorLeft"
+    },
+    {
+        "key": "alt+l",
+        "command": "cursorRight"
+    },
+    {
+        "key": "alt+k",
+        "command": "cursorDown"
+    },
+    {
+        "key": "alt+k",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    // {
+    //     "key": "alt+k",
+    //     "command": "workbench.action.interactivePlayground.arrowDown"
+        // "when": "listFocus && !inputFocus"
+    // },
+    // {
+    //     "key": "alt+k",
+    //     "command": "settings.action.focusSettingsFile",
+    //     "when": "inSettingsSearch && !suggestWidgetVisible"
+    // },
+    // {
+    //     "key": "alt+k",
+    //     "command": "showNextParameterHint",
+    //     "when": "ieditorTextFocus && parameterHintsMultipleSignatures && parameterHintsVisible"
+    // },
+    {
+        "key": "alt+h",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "alt+;",
+        "command": "cursorLineEnd"
+    },
+    {
+        "key": "alt+u",
+        "command": "cursorPageUp"
+    },
+    {
+        "key": "alt+m",
+        "command": "cursorPageDown"
+    },
+    {
+        "key": "alt+o",
+        "command": "cursorWordEndRight"
+    },
+    // Déplacement + selection
+    {
+        "key": "alt+shift+i",
+        "command": "cursorUpSelect"
+    },
+    {
+        "key": "alt+shift+k",
+        "command": "cursorDownSelect"
+    },
+    {
+        "key": "alt+shift+j",
+        "command": "cursorLeftSelect"
+    },
+    {
+        "key": "alt+shift+l",
+        "command": "cursorRightSelect"
+    },
+]
